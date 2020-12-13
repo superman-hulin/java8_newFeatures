@@ -1,0 +1,5 @@
+package com.hulin.java8.exer;
+@FunctionalInterface
+public interface MyFunction2<T,R> {
+    R getValue(T t1,T t2);
+}
